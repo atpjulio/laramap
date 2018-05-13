@@ -12,7 +12,10 @@
 <body>
     @yield('content')
     <script src="{{ asset('/js/jquery.js') }}"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJmhzKbfZf0QtRK7_FAO1msbA2DjdQ2ng&libraries=places"></script>
+    <!--
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJmhzKbfZf0QtRK7_FAO1msbA2DjdQ2ng" async defer></script>
+    -->
     <script src="{{ asset('/js/script.js') }}"></script>
     <script src="{{ asset('/js/app.js') }}"></script>
 </body>
